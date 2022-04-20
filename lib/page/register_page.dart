@@ -151,17 +151,20 @@ class _RegisterPageState extends State<RegisterPage> {
               SizedBox(
                 height: 32,
               ),
-              CustomPrimaryButton(
-                buttonColor: primaryBlue,
-                textValue: 'Register',
-                textColor: Colors.white,
-              ),
-              SizedBox(
-                height: 50,
-              ),
-              Row(
+              Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.pop(
+                        context,
+                      );
+                    },
+                    child: CustomPrimaryButton(
+                        buttonColor: primaryBlue,
+                        textValue: 'Register',
+                        textColor: Colors.white),
+                  ),
                   Text(
                     "Already have an account? ",
                     style: regular16pt.copyWith(color: textGrey),
@@ -176,8 +179,11 @@ class _RegisterPageState extends State<RegisterPage> {
                       'Login',
                       style: regular16pt.copyWith(color: primaryBlue),
                     ),
-                  ),
+                  )
                 ],
+              ),
+              SizedBox(
+                height: 50,
               ),
             ],
           ),

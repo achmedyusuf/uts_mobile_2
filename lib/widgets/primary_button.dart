@@ -6,7 +6,10 @@ class CustomPrimaryButton extends StatelessWidget {
   final String textValue;
   final Color textColor;
 
-  CustomPrimaryButton({this.buttonColor, this.textValue, this.textColor});
+  CustomPrimaryButton(
+      {required this.buttonColor,
+      required this.textValue,
+      required this.textColor});
 
   @override
   Widget build(BuildContext context) {

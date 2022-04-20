@@ -56,10 +56,40 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_hooks",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_hooks-0.16.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_riverpod",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_riverpod-0.14.0+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///C:/src/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "freezed_annotation",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/freezed_annotation-0.14.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "hooks_riverpod",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/hooks_riverpod-0.14.0+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "json_annotation",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/json_annotation-4.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
     },
     {
       "name": "matcher",
@@ -86,6 +116,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "riverpod",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/riverpod-0.14.0+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///C:/src/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -100,6 +136,12 @@
     {
       "name": "stack_trace",
       "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "state_notifier",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/state_notifier-0.7.2+1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -143,10 +185,10 @@
       "name": "studi_kasus",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.10"
+      "languageVersion": "2.12"
     }
   ],
-  "generated": "2022-04-18T16:32:29.870479Z",
+  "generated": "2022-04-19T17:02:06.530503Z",
   "generator": "pub",
   "generatorVersion": "2.16.1"
 }
